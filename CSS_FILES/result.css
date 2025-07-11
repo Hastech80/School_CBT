@@ -1,0 +1,70 @@
+h2{
+    text-align: center;
+    margin-top: 60px;
+}
+#database{
+    display: inline-block;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.spp{
+    transform: rotate(270deg);
+    padding: 1px;
+}
+.spp2{
+    font-size: 50px;
+     margin: 2px;
+}
+th{
+    padding: 4px;
+    margin: 4px;
+}
+table{
+    width: 100%;
+    padding: 0px;
+    border: 1px solid green;
+    margin: 0px;
+    text-transform: capitalize;
+    }
+table , th, td{
+    border-bottom: 1px solid green;
+    border-collapse: collapse;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: rgb(158, 157, 157);
+}
+tr:nth-child(odd){
+    background-color: gainsboro;
+}
+
+
+input{
+    padding: 8px;
+    text-transform: uppercase;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    border-radius: 10px;
+    margin: 5px 50px ;
+}
+input:hover{
+    cursor: pointer; 
+}
+
+.tooltip{
+    position: relative;
+}
+.tooltip::before{
+    content: attr(title);
+    position: absolute;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.tooltip:hover::before{
+    display: block;
+}

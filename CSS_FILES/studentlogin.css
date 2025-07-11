@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", "sans-serif";
+}
+body{
+    background-color: #c9d6ff;
+    /* background: linear-gradient(to right, red,yellow,pink); */
+    background:  rgb(255, 248, 248);
+  
+}
+.container{
+    width: 500px;
+    margin: 5px auto;
+    border-radius: 5px;
+    border-top: 3px solid green;
+    border-bottom: 3px solid green;
+    padding: 10px;
+    box-shadow: inset 0 0 4px green, 0 0 4px green;
+}
+
+.container h2{
+    text-align: center;
+    margin: 10px;
+     
+
+}
+label{
+    padding: 5px;
+    margin: 30px;
+    font-size: larger;
+    
+     
+}
+ 
+ 
+input[type = password],input[type = number],input[type = text]{
+     
+    width: 40%;
+    color: green;
+    text-transform: uppercase;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow:inset 0 0 8px green;
+}
+input[type = password],input[type = number]:hover{
+    box-shadow: 0 0 8px green;
+}
+ 
+.form_title{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 1.1rem;
+    margin-bottom: 0.4rem;
+    text-transform: capitalize;
+}
+#P_login{
+    margin-left: 250px;
+}
+#signup{
+    margin-left: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: green;
+    color: white; 
+
+}
+#login{
+    margin-left: 40%;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: green;
+    color: white; 
+    width: 100px;
+    font-size: 15px;
+}
+#login:hover{
+    box-shadow: 0 0 8px green;
+}
+ 
+#b_sig{
+    margin-left: 200px;
+    
+}
+.general{
+    width: 700px;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 20px;
+    border-right: 5px solid green;
+    border-left: 5px solid green;
+    background-color: white;
+    box-shadow: inset 0 0 4px green, 0 0 4px green;
+}
+img{
+        
+  border: 5px solid green ;
+  border-radius: 50%;
+  margin: 5px;
+}
+.add{
+  text-align: center;
+  margin: 6px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  border-radius: 10px;
+  border-top: 5px solid green;
+  border-bottom: 5px solid green;
+  margin-bottom: 10px;
+  box-shadow: 0 0 8px green;
+}
+.going_going{
+  border-radius: 10px; 
+  font-size: 16px;
+  padding: 5px;
+  text-align: center;
+}
+
+ 
+.small_section{
+  text-align: center;
+}
+ 
+input{
+  background-color: rgb(218, 220, 218);
+}

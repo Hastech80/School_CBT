@@ -1,0 +1,137 @@
+*{
+     
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr ;
+    background-color: green;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0px;
+    box-shadow: 0 0 18px green;
+    height: 42px;
+    align-items: center;
+    border-bottom: 4px solid black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    }
+
+    div:hover{
+        padding-left: 10px;
+        color: black;
+        transition-property: color;
+        transition-duration: 1s;
+        cursor: pointer;
+    }
+    header img{
+        border: 2px solid black;
+        border-radius: 40%;
+    }
+    header a i{
+        font-size: 20px;
+    }
+    header a{
+        color: white;
+    }
+    header a:hover{
+        padding-left: 20px;
+        color: black;
+        transition-property: color;
+        transition-duration: 1s;
+    }
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sidebar{
+    border-top: 4px solid black;
+    position: fixed;
+    width:  25%;
+    height: 100%;
+    top: 42px;
+    right: 0;
+    background: green;
+    box-shadow: 0 0 18px green;   
+}
+.sidebar p{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 1px;
+    padding: 5px;
+    border-bottom: 2px solid black;
+    transition: .5s;
+    font-size: 20px;
+    text-transform: capitalize;   
+}
+ 
+.sidebar img{
+    display: grid;
+    place-items: center;
+    margin: 10px auto;
+    border-radius: 25%;
+    border-bottom: 2px solid black;
+}
+ul li:hover a{
+    padding-left: 20px;
+    color: black;
+    transition-property: color;
+    transition-duration: 1s;
+}
+.spp{
+    font-size: 125px;
+}
+#main_section{
+    width: 73%;
+    margin: 5px;
+    margin-top: 60px;
+}
+h1, h2{
+    text-transform: uppercase;
+    text-align: center; 
+}
+p{
+    text-transform: capitalize;
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+}
+#main_section ol li{
+     font-size: 20px;
+     text-transform: capitalize;
+} 
+form{
+    width: 100px;
+    margin: 2px auto;
+}
+input{
+    cursor: pointer;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    text-transform: capitalize; 
+    width: 100px;
+    margin: 2px auto;
+    
+}
+input:hover{
+    background-color: black;
+}
+ 
+ 
+ 

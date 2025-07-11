@@ -1,0 +1,49 @@
+#logout-popup {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%, -40%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid green;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    width: 300px;
+    height: 270px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     
+  }
+  
+  #logout-popup.show {
+    display: block;
+  }
+  
+  #logout-form {
+    text-align: center;
+  }
+  
+  #yes-btn, #no-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #yes-btn ,#no-btn {
+    background-color: green;
+    color: #fff;
+  }
+  .submittttting{
+    text-align: center;
+    text-transform: capitalize;
+}
+.mainnn{
+    border-radius: 10px;
+    padding: 1px;
+    grid-template-columns: 1fr;
+    width: 700px;
+    margin: 65px auto;
+}
+  
+   
